@@ -107,7 +107,7 @@ h2{
     background: #333;
 }
 .header a .return {
-    width: .6rem;
+    width: .8rem;
     height: .82rem;
     line-height: .9rem;
     margin-left: .08rem;
@@ -121,7 +121,7 @@ h2{
     font-size: .25rem;
 }
 .header h1{
-    width: 67%;
+    width: 70%;
     height: .82rem;
     line-height: .89rem;
     text-align: center;
@@ -130,7 +130,7 @@ h2{
     font-weight: 100;
 }
 .header .hd-menu{
-    width: 1rem;
+    width: .6rem;
     text-align: right;
     color: #fff;
     font-size: .25rem;
