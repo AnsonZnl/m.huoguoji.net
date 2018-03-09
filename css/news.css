@@ -1,0 +1,56 @@
+/*header*/
+.header{
+    position: relative;
+    height: 1rem;
+    border-bottom: solid 2px #000;
+    line-height: 1rem;
+    background: #333;
+}
+.header a .return {
+    width: .5rem;
+    height: 1rem;
+    margin-left: .08rem;
+    line-height: 1rem;
+}
+.header a .small{
+    margin-top: -0.06rem;
+    font-size: .6rem;
+}
+.header a{
+    color: #fff;
+    font-size: .25rem;
+}
+.header h1{
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    font-size: .25rem;
+}
+.header .hd-menu{
+    width: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: .25rem;
+}
+.header .none{
+    display: none;
+}
+.header .nav{
+    position: absolute;
+    top: 1rem;
+    margin-top: 1px;
+    right: 0;
+    border:solid 1px #000;
+    /*border-radius: 3px;*/
+    background: #333;
+}
+.header .nav .bb{
+    border-bottom: solid 1px #000;
+}
+.header .nav a{
+    display: block;
+    width: 1.5rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+}

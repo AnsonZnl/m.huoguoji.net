@@ -1,13 +1,13 @@
 // //导航
-// var nav=document.getElementById("js_nav");
-// var box=document.getElementById("js_box");
-// nav.onclick=function (ev) {
-//     if(box.className=="box"){
-//         box.className="box none"
-//     }else {
-//         box.className="box"
-//     }
-// };
+var nav=document.getElementById("js_nav");
+var box=document.getElementById("js_box");
+nav.onclick=function (ev) {
+    if(box.className=="nav"){
+        box.className="nav none"
+    }else {
+        box.className="nav"
+    }
+};
 // // 选项卡
 var tabNav =document.querySelectorAll(".tab_nav .li_list");
 var boxList =document.querySelectorAll(".box .box_list");
