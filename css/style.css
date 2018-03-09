@@ -27,7 +27,7 @@ h2{
     padding-bottom: .2rem;
     font-size: .3rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
 }
 .active{
     background: #005f9d !important;
@@ -37,6 +37,11 @@ h2{
 }
 .noleft{
     border-left: none!important;
+}
+.bor_button{
+    height: 1px;
+    border-bottom: dashed #ccc 1px;
+    margin-bottom: .2rem;
 }
 /*布局*/
 .container{
@@ -100,7 +105,7 @@ h2{
     height: .6rem;
     line-height: .6rem;
     margin: .1rem;
-    font-size: .16rem;
+    font-size: .2rem;
     background: #ddd;
     border-radius: .3rem;
     text-align: center;
@@ -116,9 +121,10 @@ h2{
 }
 .tab_bar .tab_nav li{
     display: inline-block;
-    height: .25rem;
-    line-height: .25rem;
-    margin-left: .2rem;
+    height: .35rem;
+    line-height: .35rem;
+    margin-left: .1rem;
+    margin-right: .1rem;
     color: #000;
     font-size: .26rem;
     text-align: center;
@@ -142,10 +148,109 @@ h2{
 .box .box_list .mr4{
     margin-right: 4%;
 }
+/* 模块三 news */
+.news a{
+    margin-bottom: .2rem;
+    color: #000;
+}
+.news a strong{
+    display: block;
+    font-size: .28rem;
+    margin-bottom: .15rem;
+}
+.news p{
+    color: #515151;
+    line-height: .4rem;
+    margin-bottom: .12rem;
+}
+.news .news_list img{
+    float: left;
+    width: 2.5rem;
+    height: 2rem;
+    border-radius: 4px;
+    margin-right: .2rem;
+}
+.news .news_list .text_hide{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.news .btn-more{
+    width: 100%;
+    text-align: center;
+    color: #003a69;
+    font-size: .3rem;
+}
 
-
-/*header*/
-
-/*footer*/
+/* 模块四 加盟*/
+.jiamen a{
+    margin-bottom: .2rem;
+    color: #000;
+}
+.jiamen strong{
+    display: block;
+    font-size: .28rem;
+    margin-bottom: .15rem;
+}
+.jiamen p{
+    color: #515151;
+    line-height: .4rem;
+    margin-bottom: .12rem;
+}
+.jiamen .news_list img{
+    float: left;
+    width: 2.5rem;
+    height: 2rem;
+    border-radius: 4px;
+    margin-right: .2rem;
+}
+.jiamen .news_list .text_hide{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.jiamen .btn-more{
+    width: 100%;
+    text-align: center;
+    color: #003a69;
+    font-size: .3rem;
+}
+/* footer_banner 底部广告 */
+.footer_banner img{
+    height: 1.2rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+/*footer 底部*/
 .footer{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.footer .ft_logo{
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: black;
+    font-size: .3rem;
+    font-weight: bold;
+}
+.footer ul{
+    margin-bottom: .2rem;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: .2rem;
+    margin-right: .2rem;
+    font-size: .28rem;
+}
+.footer li a{
+    color: black;
+}
+.footer .copy{
+    color: #cecece;
 }
