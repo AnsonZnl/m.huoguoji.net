@@ -25,7 +25,7 @@ img{
 }
 h2{
     padding-top: .2rem;
-    padding-bottom: .2rem;
+    padding-bottom: .35rem;
     font-size: .31rem;
     text-align: center;
     font-weight: 100;
@@ -46,8 +46,8 @@ h2{
 .bor_button{
     height: 1px;
     border-bottom: dashed #ccc 1px;
-    margin-bottom: .1rem;
-    margin-top: .3rem;
+    margin-bottom: .2rem;
+    margin-top: .2rem;
 }
 /*布局*/
 .container{
@@ -179,6 +179,12 @@ h2{
     height: .3rem;
     top: 0;
     right: 0;
+    line-height: .3rem;
+    border-radius: 1.5rem;
+    background: #666;
+    color: black;
+    text-align: center;
+    font-size: .3rem;
 }
 /*模块一 index的地区 --  */
 .region ul li{
@@ -208,12 +214,13 @@ h2{
 }
 .tab_bar .tab_nav li{
     display: inline-block;
-    height: .4rem;
-    line-height: .4rem;
+    width: 1.4rem;
+    height: .5rem;
+    line-height: .5rem;
     margin-left: .1rem;
     margin-right: .1rem;
     color: #000;
-    font-size: .27rem;
+    font-size: .28rem;
     text-align: center;
     font-weight: 500;
     margin-bottom: -2px;
@@ -238,8 +245,8 @@ h2{
     margin-right: 4%;
 }
 /* 模块三 news */
-.news a{
-    margin-bottom: .2rem;
+.news_list{
+    height: 2rem;
     color: #000;
 }
 .news p {
@@ -274,13 +281,10 @@ h2{
     text-align: center;
     font-size: .3rem;
     color: #2a8779;
+    margin-bottom: .2rem;
 }
 
 /* 模块四 加盟*/
-.jiamen a{
-    margin-bottom: .2rem;
-    color: #333;
-}
 .jiamen strong{
     display: block;
     margin-bottom: .15rem;
@@ -312,6 +316,7 @@ h2{
     text-align: center;
     color: #2a8779;
     font-size: .3rem;
+    margin-bottom: .2rem;
 }
 /* pages 模块五 分页 */
 .pages {
