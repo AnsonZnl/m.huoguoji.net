@@ -3,6 +3,7 @@
 /*header*/
 .header{
     background: #ededed;
+    border-bottom: 0;
 }
 .header .logo{
     padding-top: .2rem;

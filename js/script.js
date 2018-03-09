@@ -1,13 +1,8 @@
-// //导航
-var nav=document.getElementById("js_nav");
-var box=document.getElementById("js_box");
-nav.onclick=function (ev) {
-    if(box.className=="nav"){
-        box.className="nav none"
-    }else {
-        box.className="nav"
-    }
-};
+//banner 点击隐藏
+function bannerHide() {
+    var hb=document.getElementById("hb");
+    hb.style.display="none";
+}
 // // 选项卡
 var tabNav =document.querySelectorAll(".tab_nav .li_list");
 var boxList =document.querySelectorAll(".box .box_list");
@@ -22,3 +17,13 @@ for (var i=0;i<tabNav.length;i++){
         boxList[this.index].style.display='block';    //this.index 获取当前li对应的索引
     }
 }
+// //导航
+var nav=document.getElementById("js_nav");
+var box=document.getElementById("js_box");
+nav.onclick=function () {
+    if(box.className==="nav"){
+        box.className="nav none"
+    }else {
+        box.className="nav"
+    }
+};
