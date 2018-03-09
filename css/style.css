@@ -10,6 +10,7 @@ body {
 }
 p,span{
     font-size: .24rem;
+    color: #333;
 }
 a{
     text-decoration: none;
@@ -27,7 +28,11 @@ h2{
     padding-bottom: .2rem;
     font-size: .31rem;
     text-align: center;
-    font-weight: bold;
+    font-weight: 100;
+    color: #333;
+}
+.time{
+    color: #bbb;
 }
 .active{
     background: #005f9d !important;
@@ -41,7 +46,8 @@ h2{
 .bor_button{
     height: 1px;
     border-bottom: dashed #ccc 1px;
-    margin-bottom: .2rem;
+    margin-bottom: .1rem;
+    margin-top: .3rem;
 }
 /*布局*/
 .container{
@@ -185,13 +191,14 @@ h2{
     line-height: .6rem;
     margin: .1rem;
     font-size: .24rem;
-    background: #ddd;
+    background: #f8f8f8;
     border-radius: .3rem;
     text-align: center;
-    color: #000;
+    color: #666;
 }
 .region li .red{
     color: red;
+    background-color: #fef2f2;
 }
 /* 模块二 index的品牌(选项卡)  */
 
@@ -235,65 +242,70 @@ h2{
     margin-bottom: .2rem;
     color: #000;
 }
+.news p {
+    color: #333;
+}
 .news a strong{
     display: block;
+    height: .42rem;
+    line-height: .42rem;
     font-size: .28rem;
     margin-bottom: .15rem;
+    font-weight: 100;
 }
-.news p{
-    color: #515151;
-    line-height: .4rem;
-    margin-bottom: .12rem;
-}
-.news .news_list img{
-    float: left;
-    width: 2.5rem;
+.news .news_list img{float: left;
+    width: 2rem;
     height: 2rem;
     border-radius: 4px;
     margin-right: .2rem;
 }
 .news .news_list .text_hide{
+    line-height: .4rem;
+    margin-bottom: .12rem;
     overflow : hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    color: #666;
 }
 .news .btn-more{
     width: 100%;
     text-align: center;
-    color: #2a8779;
     font-size: .3rem;
+    color: #2a8779;
 }
 
 /* 模块四 加盟*/
 .jiamen a{
     margin-bottom: .2rem;
-    color: #000;
+    color: #333;
 }
 .jiamen strong{
     display: block;
-    font-size: .28rem;
     margin-bottom: .15rem;
+    font-size: .28rem;
+    font-weight: 100;
 }
 .jiamen p{
-    color: #515151;
-    line-height: .4rem;
+    line-height: .45rem;
     margin-bottom: .12rem;
 }
 .jiamen .news_list img{
     float: left;
-    width: 2.3rem;
-    height: 1.7rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 4px;
     margin-right: .2rem;
 }
 .jiamen .news_list .text_hide{
     overflow : hidden;
+    padding-top: .1rem;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    color: #666;
 }
 .jiamen .btn-more{
     width: 100%;

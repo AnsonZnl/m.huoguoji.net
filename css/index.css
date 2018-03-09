@@ -15,11 +15,11 @@
 }
 /*banner*/
 .banner .title{
+    margin-bottom: .2rem;
     text-align: center;
     font-size: .32rem;
-    color: black;
-    font-weight: bold;
-    margin-bottom: .1rem;
+    color: #333;
+    font-weight: 100;
 }
 .banner{
     padding-top: .1rem;
@@ -27,8 +27,8 @@
 }
 .banner .swiper-container .swiper-slide{
     position: relative;
-    height: 3rem!important;
-    width: 2.8rem!important;
+    height: 3.5rem!important;
+    width: 4.4rem!important;
     padding: .2rem;
     border: #cecece solid 1px;
     border-radius: 5px;
@@ -36,13 +36,15 @@
 .banner .swiper-container img{
     position: absolute;
     top: .2rem;
-    height: 2.5rem;
-    width: 2.8rem;
+    height: 3.5rem;
+    width: 4.4rem;
 }
 .banner .swiper-container strong{
     position: absolute;
     bottom: .2rem;
-    font-size: .18rem;
+    font-size: .23rem;
+    font-weight: 100;
+    color: #333;
 }
 /*banner 轮播*/
 
@@ -69,5 +71,8 @@
     align-items: center;
 }
 
+.news{
+    margin-bottom: .2rem;
+}
 
 
