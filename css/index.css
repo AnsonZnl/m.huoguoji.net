@@ -1,15 +1,14 @@
 /*style css*/
 
 /*header*/
-.header{
+.index_header{
     background: #ededed;
     border-bottom: 0;
 }
-.header .logo{
-    padding-top: .2rem;
-    padding-bottom: .2rem;
+.index_header .logo{
+    padding-top: .1rem;
 }
-.header .logo img{
+.index_header .logo img{
     width: auto;
     height: 1rem;
     margin: auto;
@@ -20,7 +19,6 @@
     font-size: .32rem;
     color: black;
     font-weight: bold;
-    margin-top: .1rem;
     margin-bottom: .1rem;
 }
 .banner{
