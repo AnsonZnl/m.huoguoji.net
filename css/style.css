@@ -86,22 +86,8 @@ h2{
 .mbd3rem{
     margin-bottom: .3rem;
 }
-.w100{
-    width: 100%;
-}
-.w50{
-    width: 49%;
-}
-.col-4{
-    width: 30%;
-    padding: .1rem;
-    float: left;
-}
-.col-3{
-    width: 24%;
-    float: left;
-    padding: 0;
-    border:solid #c3cacf 2px;
+.mb1rem{
+    margin-bottom: .1rem;
 }
 /*模块css*/
 /*header*/
@@ -257,7 +243,6 @@ h2{
     height: .42rem;
     line-height: .42rem;
     font-size: .28rem;
-    margin-bottom: .15rem;
     font-weight: 100;
 }
 .news .news_list img{float: left;
@@ -287,7 +272,6 @@ h2{
 /* 模块四 加盟*/
 .jiamen strong{
     display: block;
-    margin-bottom: .15rem;
     font-size: .28rem;
     font-weight: 100;
 }

@@ -18,9 +18,8 @@ for (var i=0;i<tabNav.length;i++){
     }
 }
 // //导航
-var nav=document.getElementById("js_nav");
-var box=document.getElementById("js_box");
-nav.onclick=function () {
+function NavHide() {
+    var box=document.getElementById("js_box");
     if(box.className==="nav"){
         box.className="nav none"
     }else {
