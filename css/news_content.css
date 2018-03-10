@@ -19,7 +19,7 @@
 .news_container strong{
     font-size: .3rem;
 }
-.news_container img{
+.news_container>img{
     font-size: 3.7rem;
     margin-bottom: .23rem;
 }

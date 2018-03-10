@@ -1,7 +1,9 @@
 //banner 点击隐藏
 function bannerHide() {
     var hb=document.getElementById("hb");
+    var jsBox=document.getElementById("js_box");
     hb.style.display="none";
+    jsBox.style.top="1.01rem"
 }
 // // 选项卡
 var tabNav =document.querySelectorAll(".tab_nav .li_list");
@@ -26,3 +28,16 @@ function NavHide() {
         box.className="nav"
     }
 }
+
+//点击展开
+var newstop=document.getElementById("newstop");
+var newstext=document.getElementById("newstext");
+newstop.onclick=function (){
+    if(newstop.innerHTML=="﹀"){
+        newstop.innerHTML="︿";
+        newstext.style.height="auto";
+    }else {
+        newstop.innerHTML="﹀";
+        newstext.style.height="3rem";
+    }
+};

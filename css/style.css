@@ -95,7 +95,7 @@ h2{
 .mb1rem{
     margin-bottom: .1rem;
 }
-/*模块css*/
+/*----------------模块css------------------------------*/
 /*header*/
 .header{
     position: relative;
@@ -143,7 +143,6 @@ h2{
     width: 0;
     height: 0;
     border: .25rem solid #333;
-    border-top-color: #333;
     border-bottom: none;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -203,6 +202,7 @@ h2{
     color: black;
     text-align: center;
     font-size: .3rem;
+    font-style: normal;
 }
 /*模块一 index的地区 --  */
 .region ul li{
@@ -392,6 +392,14 @@ h2{
 .news_container{
     border-bottom: 1px #cecece dashed;
 }
+.news_container #newstext{
+    height: 3rem;
+    overflow: hidden;
+}
+#newstop{
+    margin-top: .2rem;
+    text-align: center;
+}
 .news_container .tl_time{
     color: #bbb;
     font-size: .23rem;
@@ -411,6 +419,26 @@ h2{
 }
 .news_container strong{
     font-size: .3rem;
+}
+/*模块八 收藏 分享 */
+.shou_fen{
+    text-align: center;
+}
+.shou_fen a{
+    display: inline-block;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.shou_fen .shoucnag img{
+    margin-top: .1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1rem;
+    height: 1rem;
+}
+.shou_fen .shoucnag p{
+    text-align: center;
+    margin-top: .1rem;
 }
 /* footer_banner 底部广告 */
 .footer_banner{
