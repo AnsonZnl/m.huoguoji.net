@@ -1,0 +1,106 @@
+a{
+    color: #333;
+}
+.text_box li{
+    background: none;
+}
+.text_box li a{
+    width: 89%;
+}
+.text_box .text_indet{
+    text-indent: 0;
+}
+.text_box li i{
+    display: inline-block;
+    width: .53rem;
+    text-align: center;
+     font-style: normal;
+     font-weight: 500;
+    font-size: .3rem;
+    color: #ccc;
+ }
+.text_box .phb1{
+    text-indent: .27rem;
+    background: url(../images/phb1.png) no-repeat .2rem;
+    background-size: .3rem 0.38rem;
+}
+.text_box .phb2{
+    text-indent: .27rem;
+    background: url(../images/phb2.png) no-repeat .2rem;
+    background-size: .3rem 0.38rem;
+}
+.text_box .phb3{
+    text-indent: .27rem;
+    background: url(../images/phb3.png) no-repeat .2rem;
+    background-size: .3rem 0.38rem;
+}
+.ji_jiameng{
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+.ji_jiameng .jm_img{
+    position: relative;
+}
+.ji_jiameng .jm_img img{
+    height: 3.5rem;
+    border-radius: 5px;
+}
+.ji_jiameng .jm_img .jm_text{
+    width: 100%;
+    height: .9rem;
+    line-height: .9rem;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    text-indent: .2rem;
+}
+.ji_jiameng .jm_img .jm_text a{
+    display: block;
+    width: 1.4rem;
+    height: .5rem;
+    line-height: .5rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: rgba(255,0,0,1);
+    margin-right: .2rem;
+    margin-top: .2rem;
+}
+.ji_jiameng ul{
+    width: 90%;
+    margin: auto;
+}
+.ji_jiameng ul li {
+    display: inline-block;
+    width: 47%;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+.ji_jiameng ul li .red{
+    color: red;
+}
+.ji_jiameng .btn{
+    margin-top: .2rem;
+    text-align: center;
+}
+.ji_jiameng .btn a{
+    display: inline-block;
+    width: 45%;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    border: solid #59a59a 1px;
+}
+.ji_jiameng .cha{
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    color: #59a59a;
+    margin-right: -2px;
+}
+.ji_jiameng .wo{
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    background: #59a59a;
+    color: #fff;
+    margin-left: -2px;
+}

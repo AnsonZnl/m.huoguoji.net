@@ -46,6 +46,9 @@ h2{
 .noleft{
     border-left: none!important;
 }
+.nobutton{
+    border-bottom: none!important;
+}
 .bor_button{
     height: 1px;
     border-bottom: dashed #ccc 1px;
@@ -384,6 +387,30 @@ h2{
     color: #666;
     padding-right: .2rem;
     font-size: .27rem;
+}
+/* 模块七 标题内容*/
+.news_container{
+    border-bottom: 1px #cecece dashed;
+}
+.news_container .tl_time{
+    color: #bbb;
+    font-size: .23rem;
+    text-align: center;
+    margin-bottom: .23rem;
+}
+.news_container .tl_time span{
+    color: #bbb;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+.news_container p{
+    margin-bottom: .23rem;
+    color: #333;
+    font-size: .28rem;
+    line-height: .44rem;
+}
+.news_container strong{
+    font-size: .3rem;
 }
 /* footer_banner 底部广告 */
 .footer_banner{
