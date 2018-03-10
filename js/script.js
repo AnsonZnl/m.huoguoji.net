@@ -25,4 +25,4 @@ function NavHide() {
     }else {
         box.className="nav"
     }
-};
+}

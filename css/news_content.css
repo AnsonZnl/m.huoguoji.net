@@ -1,0 +1,32 @@
+
+.news_container .tl_time{
+    color: #bbb;
+    font-size: .23rem;
+    text-align: center;
+    margin-bottom: .23rem;
+}
+.news_container .tl_time span{
+     color: #bbb;
+    margin-left: .1rem;
+    margin-right: .1rem;
+ }
+.news_container p{
+    margin-bottom: .23rem;
+    color: #333;
+    font-size: .28rem;
+    line-height: .44rem;
+}
+.news_container strong{
+    font-size: .3rem;
+}
+.news_container img{
+    font-size: 3.7rem;
+    margin-bottom: .23rem;
+}
+.region{
+    margin-bottom: .4rem;
+}
+.region ul li {
+    float: left;
+    width: 33.3%;
+}

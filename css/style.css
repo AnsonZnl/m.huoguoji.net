@@ -1,5 +1,8 @@
 /*公共样式*/
 /*字体*/
+html{
+    font-family: Verdana,'Microsoft YaHei';
+}
 *{
     padding: 0;
     margin: 0;
@@ -93,9 +96,8 @@ h2{
 /*header*/
 .header{
     position: relative;
-    height: .81rem;
+    height: .82rem;
     line-height: .81rem;
-    border-bottom: solid 2px #000;
     background: #333;
 }
 .header a .return {
@@ -130,30 +132,57 @@ h2{
 .header .none{
     display: none;
 }
+.header .sanjiao{
+    z-index: 9;
+    position: absolute;
+    top: -.2rem;
+    right: .3rem;
+    width: 0;
+    height: 0;
+    border: .25rem solid #333;
+    border-top-color: #333;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    transform:rotate(180deg);
+}
 .header .nav{
     z-index: 2;
     position: absolute;
-    top: .81rem;
-    margin-top: 1px;
+    top: 1.8rem;
     right: 0;
-    border:solid 1px #000;
-    /*border-radius: 3px;*/
+    border-radius: 6px;
     background: #333;
-}
-.header .nav .bb{
-    border-bottom: solid 1px #000;
 }
 .header .nav a{
     display: block;
-    width: 1.5rem;
+    width: 1.8rem;
     height: .8rem;
     line-height: .8rem;
-    text-align: center;
+    text-align: left;
+    text-indent: .55rem;
+}
+.header .nav .bg_img1{
+    background: url("../images/nav_index.png") no-repeat .15rem .25rem;
+    background-size: .27rem .27rem;
+}
+.header .nav .bg_img2{
+    background: url("../images/nav_mengdian.png") no-repeat .15rem .25rem;
+    background-size: .27rem .27rem;
+}
+.header .nav .bg_img3{
+    background: url("../images/nav_pinpei.png") no-repeat .15rem .25rem;
+    background-size: .27rem .27rem;
+}
+.header .nav .bg_img4{
+    background: url("../images/nav_zxun.png") no-repeat .15rem .25rem;
+    background-size: .27rem .27rem;
 }
 /* banner 广告 */
 .header_banner{
     position: relative;
     width: 100%;
+    margin-bottom: .2rem;
 }
 .header_banner img{
     height: 1rem;
@@ -329,6 +358,33 @@ h2{
     color: black;
     background: #cecece;
 }
+/*模块六 推荐知识*/
+.text_box{
+    margin-bottom: .4rem;
+    border-bottom: #cecece 1px dashed;
+    border-top: #cecece 1px dashed;
+}
+.text_box li{
+    height: .8rem;
+    line-height: .8rem;
+    text-indent: .2rem;
+    padding-left: .1rem;
+    background: url("../images/li_style.png") no-repeat .2rem;
+    background-size: .12rem .12rem;
+    border-bottom: #cecece 1px dashed;
+}
+.text_box li a{
+    display: inline-block;
+    color: #333;
+    font-size: .27rem;
+}
+.text_box li span {
+    float: right;
+    display: inline-block;
+    color: #666;
+    padding-right: .2rem;
+    font-size: .27rem;
+}
 /* footer_banner 底部广告 */
 .footer_banner{
     width: 100%;
@@ -340,10 +396,11 @@ h2{
 }
 /*footer 底部*/
 .footer_nav{
-    color: #585858;
+    margin-top: .2rem;
+    color: #ddd;
 }
 .footer_nav a{
-    color: #585858;
+    color: #ddd;
 }
 .footer{
     padding-bottom: 1rem;
