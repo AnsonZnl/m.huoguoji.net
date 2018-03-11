@@ -32,7 +32,7 @@ function NavHide() {
 //点击展开
 var newstop=document.getElementById("newstop");
 var newstext=document.getElementById("newstext");
-newstop.onclick=function (){
+function newsTops(){
     if(newstop.innerHTML=="﹀"){
         newstop.innerHTML="︿";
         newstext.style.height="auto";
@@ -47,7 +47,7 @@ function shou() {
     var last1=shouc.children[0];
     var file1=shouc.children[1];
     console.log(last1);
-    last1.src="../images/shou.jpg";
+    last1.src="images/shou.jpg";
     num=parseInt(file1.innerHTML);
     file1.innerHTML=num+1;
 }

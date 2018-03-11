@@ -12,8 +12,8 @@ body {
     font-size: .22rem;
 }
 p,span{
-    font-size: .24rem;
-    color: #333;
+    font-size: .26rem;
+    color: #666;
 }
 a{
     text-decoration: none;
@@ -265,7 +265,7 @@ h2{
 }
 /* 模块三 news */
 .news_list{
-    height: 2rem;
+    /*height: 2rem;*/
     color: #000;
 }
 .news p {
@@ -366,7 +366,6 @@ h2{
 .text_box{
     margin-bottom: .4rem;
     border-bottom: #cecece 1px dashed;
-    border-top: #cecece 1px dashed;
 }
 .text_box li{
     height: .8rem;
