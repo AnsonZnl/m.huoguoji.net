@@ -494,6 +494,7 @@ h2{
     font-size: .27rem;
     margin-top: .1rem;
     margin-bottom: .1rem;
+    font-weight: 500;
 }
 .ji_jiameng ul li .red{
     color: #f64040;
@@ -513,6 +514,7 @@ h2{
     line-height: .5rem;
     text-align: center;
     border: solid #59a59a 1px;
+    font-size: .27rem;
 }
 .ji_jiameng .cha{
     border-top-left-radius: .25rem;
@@ -544,6 +546,7 @@ h2{
 }
 .footer_nav a{
     color: #ddd;
+    font-size: .27rem;
 }
 .footer{
     padding-bottom: 1rem;
