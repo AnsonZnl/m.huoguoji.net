@@ -41,3 +41,13 @@ newstop.onclick=function (){
         newstext.style.height="3rem";
     }
 };
+//收藏
+var shouc=document.getElementById("shouc");
+function shou() {
+    var last1=shouc.children[0];
+    var file1=shouc.children[1];
+    console.log(last1);
+    last1.src="../images/shou.jpg";
+    num=parseInt(file1.innerHTML);
+    file1.innerHTML=num+1;
+}

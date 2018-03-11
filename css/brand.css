@@ -34,6 +34,9 @@ a{
     background: url(../images/phb3.png) no-repeat .2rem;
     background-size: .3rem 0.38rem;
 }
+.text_box .pr0{
+    padding-right: 0;
+}
 .ji_jiameng{
     margin-top: .2rem;
     margin-bottom: .2rem;

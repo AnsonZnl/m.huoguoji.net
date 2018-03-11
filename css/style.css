@@ -36,6 +36,7 @@ h2{
 }
 .time{
     color: #bbb;
+    margin-bottom: 0!important;
 }
 .active{
     background: #005f9d !important;
@@ -308,19 +309,19 @@ h2{
     font-weight: 100;
 }
 .jiamen p{
-    line-height: .45rem;
+    line-height: .44rem;
     margin-bottom: .12rem;
 }
 .jiamen .news_list img{
     float: left;
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
     border-radius: 4px;
     margin-right: .2rem;
 }
 .jiamen .news_list .text_hide{
     overflow : hidden;
-    padding-top: .1rem;
+    padding-top: .03rem;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -377,6 +378,7 @@ h2{
     border-bottom: #cecece 1px dashed;
 }
 .text_box li a{
+    width: 100%;
     display: inline-block;
     color: #333;
     font-size: .27rem;
@@ -385,8 +387,11 @@ h2{
     float: right;
     display: inline-block;
     color: #666;
-    padding-right: .2rem;
+    padding-right: .27rem;
     font-size: .27rem;
+}
+.text_box li .pr0{
+    padding-right: 0;
 }
 /* 模块七 标题内容*/
 .news_container{
