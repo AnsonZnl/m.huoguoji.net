@@ -424,7 +424,7 @@ h2{
 .shou_fen{
     text-align: center;
 }
-.shou_fen a{
+.shou_fen div{
     display: inline-block;
     margin-left: .5rem;
     margin-right: .5rem;

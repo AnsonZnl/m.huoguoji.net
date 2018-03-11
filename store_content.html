@@ -81,14 +81,14 @@
     </div>
     <!--收藏 分享-->
     <div class="shou_fen">
-        <a href="" class="shoucnag">
+        <div class="shoucnag">
             <img src="images/shoucang.png" alt="">
             <p>2</p>
-        </a>
-        <a href="" class="shoucnag">
+        </div>
+        <div class="shoucnag" onclick="call()">
             <img src="images/fenxinag.png" alt="">
             <p>分享</p>
-        </a>
+        </div>
     </div>
 </div>
 <!--地区(火锅鸡品牌)  模块一 -->
@@ -195,5 +195,48 @@
 <!--    JavaScript      -->
 <script src="js/fontSizeSet.js"></script>
 <script src="js/script.js"></script>
+<script type="text/javascript" src="js/NativeShare.js"></script>
+<script>
+    var nativeShare = new NativeShare();
+    var shareData = {
+        title: 'NativeShare',
+        desc: 'NativeShare是一个整合了各大移动端浏览器调用原生分享的插件',
+        // 如果是微信该link的域名必须要在微信后台配置的安全域名之内的。
+        link: 'https://github.com/fa-ge/NativeShare',
+        icon: 'https://pic3.zhimg.com/v2-080267af84aa0e97c66d5f12e311c3d6_xl.jpg',
+        // 不要过于依赖以下两个回调，很多浏览器是不支持的
+        success: function() {
+            alert('success')
+        },
+        fail: function() {
+            alert('fail')
+        }
+    };
+    nativeShare.setShareData(shareData)
+
+    function call(command) {
+        try {
+            nativeShare.call(command)
+        } catch (err) {
+            // 如果不支持，你可以在这里做降级处理
+            alert(err.message)
+        }
+    }
+
+    function setTitle(title) {
+        nativeShare.setShareData({
+            title: title,
+        })
+    }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d69321757dcfbfbe09dbddd4dca87b28";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 </body>
 </html>
