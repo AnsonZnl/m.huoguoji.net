@@ -52,6 +52,7 @@
     font-weight: 300;
 }
 .swiper-slide .banner_box{
+    display: block;
     padding: .2rem;
     border-radius: 3px;
     border: solid #fff 1px;
