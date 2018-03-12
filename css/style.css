@@ -356,11 +356,11 @@ h2{
     line-height: .4rem;
     display: inline-block;
     border-radius: .2rem;
-    border:#333 dashed 1px;
+    border:#eee solid 1px;
 }
 .pages .pages_active{
-    color: black;
-    background: #cecece;
+    color: #333;
+    background: #dedede;
 }
 /*模块六 推荐知识*/
 .text_box{
