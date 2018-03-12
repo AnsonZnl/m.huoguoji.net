@@ -26,3 +26,17 @@
     margin-bottom: .11rem;
     margin-top: .11rem;
 }
+.news_container .news_tag{
+    margin-bottom: .2rem;
+}
+.news_container .news_tag span{
+    color: #000;
+}
+.news_container .news_tag a{
+    display: inline-block;
+    padding: .1rem .2rem;
+    border-radius: .4rem;
+    text-align: center;
+    color: #2a8779;
+    background-color: #e4f4f2;
+}

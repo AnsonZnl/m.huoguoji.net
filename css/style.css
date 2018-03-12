@@ -29,10 +29,10 @@ img{
 h2{
     padding-top: .2rem;
     padding-bottom: .35rem;
-    font-size: .31rem;
+    font-size: .33rem;
     text-align: center;
-    font-weight: 100;
-    color: #333;
+    font-weight: 500;
+    color: #000;
 }
 .time{
     color: #bbb;
@@ -502,32 +502,6 @@ h2{
 .jm_text strong{
     font-weight: 500;
     font-size: .28rem;
-}
-.ji_jiameng .btn{
-    margin-top: .2rem;
-    text-align: center;
-}
-.ji_jiameng .btn a{
-    display: inline-block;
-    width: 45%;
-    height: .5rem;
-    line-height: .5rem;
-    text-align: center;
-    border: solid #59a59a 1px;
-    font-size: .27rem;
-}
-.ji_jiameng .cha{
-    border-top-left-radius: .25rem;
-    border-bottom-left-radius: .25rem;
-    color: #59a59a;
-    margin-right: -3px;
-}
-.ji_jiameng .wo{
-    border-top-right-radius: .25rem;
-    border-bottom-right-radius: .25rem;
-    background: #59a59a;
-    color: #fff;
-    margin-left: -3px;
 }
 
 /* footer_banner 底部广告 */
